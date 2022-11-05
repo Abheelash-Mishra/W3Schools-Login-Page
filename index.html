@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log In | W3Schools</title>
+    <link rel="icon" href="./assets/icon.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="container">
+        <a href="#">
+            <img src="./assets/logo.png" alt="W3Schools Logo" class="nav__logo">
+        </a>
+    </nav>
+    <main>
+        <div class="main__container">
+            <h1>Log In</h1>
+            <form class="main__form">
+                <label>
+                    <div class="right">
+                    <p class="labels" id="pull">Email</p>
+                    <p>Need an account?</p><a href="#" id="signup">Sign Up</a>
+                    </div>
+                    <input type="email" name="email" id="email" required>
+                </label>
+                <label>
+                    <p class="labels">Password</p>
+                    <input type="password" name="password" id="password" required>
+                </label>
+                <div id="spacing"></div>
+                <button type="submit" class="button">Log In</button>
+                <a href="#" id="forgotpassword">Forgot Password?</a>
+            </form>
+        </div>
+    </main>
+
+    <table id="table" class="container">
+        <tr>
+            <th>S.No</th>
+            <th>Email</th>
+            <th>Password</th>
+        </tr>
+    </table>
+
+    <footer class="footer__container">
+        <p class="container">
+            &copy;1999 - 2022 <a href="#">W3schools</a>. All rights reserved. <a href="#">Cookie Policy</a>, <a href="#">Privacy</a> and <a href="#">Terms</a>.
+        </p>
+        <p class="button" id="help">
+            Help
+        </p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
